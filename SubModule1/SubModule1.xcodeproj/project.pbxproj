@@ -13,7 +13,8 @@
 		18E975051F9DCDC600D69120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E975041F9DCDC600D69120 /* Assets.xcassets */; };
 		18E975081F9DCDC600D69120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E975061F9DCDC600D69120 /* LaunchScreen.storyboard */; };
 		18E9750B1F9DCDC600D69120 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9750A1F9DCDC600D69120 /* main.m */; };
-		18E975161F9DCE5700D69120 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E975151F9DCE5700D69120 /* UIView+frame.m */; };
+		18E9753D1F9DD4EB00D69120 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9753B1F9DD4EB00D69120 /* UIView+frame.m */; };
+		18E975401F9DD50400D69120 /* NSObject+Intro.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9753F1F9DD50400D69120 /* NSObject+Intro.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +28,10 @@
 		18E975071F9DCDC600D69120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18E975091F9DCDC600D69120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E9750A1F9DCDC600D69120 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18E975141F9DCE5700D69120 /* UIView+frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIView+frame.h"; path = "Assets.xcassets/UIView+frame.h"; sourceTree = "<group>"; };
-		18E975151F9DCE5700D69120 /* UIView+frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIView+frame.m"; path = "Assets.xcassets/UIView+frame.m"; sourceTree = "<group>"; };
+		18E9753B1F9DD4EB00D69120 /* UIView+frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
+		18E9753C1F9DD4EB00D69120 /* UIView+frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
+		18E9753E1F9DD50400D69120 /* NSObject+Intro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Intro.h"; sourceTree = "<group>"; };
+		18E9753F1F9DD50400D69120 /* NSObject+Intro.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Intro.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +73,10 @@
 				18E975061F9DCDC600D69120 /* LaunchScreen.storyboard */,
 				18E975091F9DCDC600D69120 /* Info.plist */,
 				18E9750A1F9DCDC600D69120 /* main.m */,
-				18E975141F9DCE5700D69120 /* UIView+frame.h */,
-				18E975151F9DCE5700D69120 /* UIView+frame.m */,
+				18E9753C1F9DD4EB00D69120 /* UIView+frame.h */,
+				18E9753B1F9DD4EB00D69120 /* UIView+frame.m */,
+				18E9753E1F9DD50400D69120 /* NSObject+Intro.h */,
+				18E9753F1F9DD50400D69120 /* NSObject+Intro.m */,
 			);
 			path = SubModule1;
 			sourceTree = "<group>";
@@ -147,7 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E975161F9DCE5700D69120 /* UIView+frame.m in Sources */,
+				18E9753D1F9DD4EB00D69120 /* UIView+frame.m in Sources */,
+				18E975401F9DD50400D69120 /* NSObject+Intro.m in Sources */,
 				18E975001F9DCDC600D69120 /* ViewController.m in Sources */,
 				18E9750B1F9DCDC600D69120 /* main.m in Sources */,
 				18E974FD1F9DCDC600D69120 /* AppDelegate.m in Sources */,
