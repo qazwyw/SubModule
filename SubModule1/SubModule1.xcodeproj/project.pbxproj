@@ -15,6 +15,7 @@
 		18E9750B1F9DCDC600D69120 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9750A1F9DCDC600D69120 /* main.m */; };
 		18E9753D1F9DD4EB00D69120 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9753B1F9DD4EB00D69120 /* UIView+frame.m */; };
 		18E975401F9DD50400D69120 /* NSObject+Intro.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9753F1F9DD50400D69120 /* NSObject+Intro.m */; };
+		18E9754C1F9DDC3200D69120 /* ModuleObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E9754B1F9DDC3200D69120 /* ModuleObj.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		18E9753C1F9DD4EB00D69120 /* UIView+frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
 		18E9753E1F9DD50400D69120 /* NSObject+Intro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Intro.h"; sourceTree = "<group>"; };
 		18E9753F1F9DD50400D69120 /* NSObject+Intro.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Intro.m"; sourceTree = "<group>"; };
+		18E9754A1F9DDC3200D69120 /* ModuleObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleObj.h; sourceTree = "<group>"; };
+		18E9754B1F9DDC3200D69120 /* ModuleObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleObj.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				18E9753B1F9DD4EB00D69120 /* UIView+frame.m */,
 				18E9753E1F9DD50400D69120 /* NSObject+Intro.h */,
 				18E9753F1F9DD50400D69120 /* NSObject+Intro.m */,
+				18E9754A1F9DDC3200D69120 /* ModuleObj.h */,
+				18E9754B1F9DDC3200D69120 /* ModuleObj.m */,
 			);
 			path = SubModule1;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E9753D1F9DD4EB00D69120 /* UIView+frame.m in Sources */,
+				18E9754C1F9DDC3200D69120 /* ModuleObj.m in Sources */,
 				18E975401F9DD50400D69120 /* NSObject+Intro.m in Sources */,
 				18E975001F9DCDC600D69120 /* ViewController.m in Sources */,
 				18E9750B1F9DCDC600D69120 /* main.m in Sources */,
@@ -293,6 +299,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6U2Q56B8Q5;
 				INFOPLIST_FILE = SubModule1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yvan.-SubModule1.SubModule1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -307,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6U2Q56B8Q5;
 				INFOPLIST_FILE = SubModule1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yvan.-SubModule1.SubModule1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
