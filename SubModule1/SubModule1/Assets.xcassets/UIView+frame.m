@@ -9,10 +9,10 @@
 #import "UIView+frame.h"
 
 @implementation UIView (frame)
--(instancetype)init{
-    if (self = [super init]) {
-        NSLog(@"cate1-frame");
-    }
-    return self;
+
+-(void)intro{
+    
+    NSLog(@"intro");
 }
+
 @end
